@@ -1,0 +1,1 @@
+上个项目一直使用webview的打包方式，简单来说就是在app中加入一个webview组件，通过webview去加载

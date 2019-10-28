@@ -1,6 +1,6 @@
-#Java线程中的yield和join  
+# Java线程中的yield和join  
 看到一篇介绍[yield和join](http://www.importnew.com/14958.html)的博客文章，我以为正如博客所说的那样，但事实上coding运行一下发现并不如此
-
+```java
 	package test.core.threads;
 	public class YieldExample{
 		public static void main(String[] args)
@@ -39,7 +39,7 @@
       		}
    		}
 	}
-
+```
 其输出的结果，并不是如博客所说的，在我的机器上不管有没有`yield()`都输出： 
 
 	I am Consumer : Consumed Item 0
